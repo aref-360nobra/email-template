@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="night">
+<html lang="en" data-theme="dracula">
 
 <head>
     <meta charset="UTF-8">
@@ -14,16 +14,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="selection:bg-[#FAFAFA] selection:text-black" style="font-family: Comic Neue, cursive; ">
+<body class="selection:bg-[#FAFAFA] selection:text-black bg-[#121212]" style="font-family: Comic Neue, cursive; ">
 
     <header class="md:w-1/2 w-[85%] mx-auto">
         <!-- logo -->
-        <div class="flex justify-start my-10 cursor-pointer">
+        <div class="flex justify-start py-10 cursor-pointer">
             <a href="#"><img src="./../images/Asset 3.png" alt="" class="h-10"></a>
 
         </div>
     </header>
-    <main class="my-5 md:w-1/2 w-[85%] mx-auto">
+    <main class="my-5 md:w-1/2 w-[85%] mx-auto bg-[#282a36] p-10 rounded-2xl">
         <h4 class="text-2xl font-bold my-3">Hey [Name],</h4>
         <section class="text-base flex flex-col gap-4">
             <p>
@@ -53,8 +53,10 @@
             <p>We know you're gonna be amazing in this role! You'll play a huge part in helping us make learning awesome
                 for everyone.</p>
         </section>
-        <button class="btn btn-primary font-bold my-3"><a href="./../index.html">Ready to unleash your
-                awesomeness?</a></button>
+        <div class="flex justify-center">
+            <button class="btn btn-secondary font-bold my-3"><a href="./../index.html">Ready to unleash your
+                    awesomeness?</a></button>
+        </div>
         <p>Need some help getting started? No sweat! Our crack team of admin support ninjas is here for you. Just shoot
             them an
             email at [email protected]</p>
